@@ -14,7 +14,7 @@ def is_prime2(num):
     elif num % 2 == 0:
         print(False)
     else:
-        for i in range(3,int(math.sqrt(num))+1,2):
+        for i in range(3, int(math.sqrt(num))+1, 2):
             if num % i == 0:
                 print(False)
                 exit()
